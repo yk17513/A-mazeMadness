@@ -16,6 +16,11 @@ public class Bullet: MonoBehaviour
         force = GetComponent<ConstantForce>();
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        gameObject.transform.localScale = new Vector3(0, 0, 0);
+    }
+
     // Update is called once per frame
     void Update()
     {

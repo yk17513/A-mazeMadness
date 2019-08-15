@@ -8,7 +8,7 @@ public class PlayerControl : MonoBehaviour
     public Bullet B;
     public float speed = 1;
 
-    void Shooting(Vector2 Direction)
+    void Shooting(Vector3 Direction)
     {
         Bullet B1 = Instantiate(B, transform);
         B1.transform.parent = null;
@@ -29,14 +29,15 @@ public class PlayerControl : MonoBehaviour
     {
         float movespeed = speed * Time.deltaTime * 10;
         character.Move(new Vector3(movespeed * Input.GetAxis("Horizontal"), 0, movespeed * Input.GetAxis("Vertical")));
+
         if (Input.GetKeyDown(KeyCode.S))
-            Shooting(Vector2.down);
+            Shooting(Vector3.back);
         if (Input.GetKeyDown(KeyCode.W))
-            Shooting(Vector2.up);
+            Shooting(Vector3.forward);
         if (Input.GetKeyDown(KeyCode.D))
-            Shooting(Vector2.right);
+            Shooting(Vector3.right);
         if (Input.GetKeyDown(KeyCode.A))
-            Shooting(Vector2.left);
+            Shooting(Vector3.left);
 
     }
 }
