@@ -3,7 +3,8 @@ guid: 21919388de9b146948917d379e6f2138
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - shootingclip: {fileID: 8300000, guid: f1d979662a06642b79ba0e4e951c58fa, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
