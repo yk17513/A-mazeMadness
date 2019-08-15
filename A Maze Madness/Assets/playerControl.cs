@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerControl : MonoBehaviour
 {
     CharacterController character;
     public Bullet B;
@@ -27,8 +27,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float movespeed = speed * Time.deltaTime * 5;
-        character.Move(new Vector3(-movespeed * Input.GetAxis("Horizontal"), movespeed * Input.GetAxis("Vertical"), 0));
+        float movespeed = speed * Time.deltaTime * 10;
+        character.Move(new Vector3(movespeed * Input.GetAxis("Horizontal"), 0, movespeed * Input.GetAxis("Vertical")));
         if (Input.GetKeyDown(KeyCode.S))
             Shooting(Vector2.down);
         if (Input.GetKeyDown(KeyCode.W))
