@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -1635889888567176846}
   m_Layer: 0
   m_Name: ExplosionWall
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,3 +123,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeSize: 0.2
   cubesInRow: 5
+  explosionRadius: 0
+  explosionForce: 0
+  explosionUpward: 0

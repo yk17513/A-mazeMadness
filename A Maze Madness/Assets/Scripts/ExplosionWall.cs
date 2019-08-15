@@ -30,7 +30,7 @@ public class ExplosionWall : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name=="ExplosionFloor")
+        if (other.gameObject.tag =="Bullet")
             explode();
     }
 
@@ -74,6 +74,8 @@ public class ExplosionWall : MonoBehaviour
         GameObject piece;
         piece = GameObject.CreatePrimitive(PrimitiveType.Cube);
 
+        piece.GetComponent<MeshRenderer>().material.color = new Color(0.13f, 0.139f, 0.188f, 0.255f);
+
         //set piece position and scale
         piece.transform.position = transform.position + new Vector3(cubeSize * x, cubeSize * y, cubeSize * z) - cubesPivot;
         piece.transform.localScale = new Vector3(cubeSize,cubeSize,cubeSize);
@@ -81,6 +83,8 @@ public class ExplosionWall : MonoBehaviour
         //add rigidbody and set mass
         piece.AddComponent<Rigidbody>();
         piece.GetComponent<Rigidbody>().mass = cubeSize;
+
+        //add material to look like original wall
     }
 
 
