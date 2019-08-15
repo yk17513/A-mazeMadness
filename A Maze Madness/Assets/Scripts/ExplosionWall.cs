@@ -30,8 +30,10 @@ public class ExplosionWall : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag =="Bullet")
+        if (other.gameObject.name =="ExplosionFloor")
+        {
             explode();
+        }
     }
 
     public void explode()
