@@ -1,16 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-
-public class PlayerControl : MonoBehaviour
+public class playerControl2 : MonoBehaviour
 {
     CharacterController character;
     public Bullet B;
     public float speed = 1;
-
-    private bool died = false;
 
     void Shooting(Vector3 Direction)
     {
@@ -31,10 +27,9 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (died) return;
         float movespeed = speed * Time.deltaTime * 10;
         if (Input.GetAxis("Horizontal") == -1)
-              gameObject.transform.localScale = new Vector3(-0.5f, 0.5f, 0.5f);
+            gameObject.transform.localScale = new Vector3(-0.5f, 0.5f, 0.5f);
         else gameObject.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
 
         character.Move(new Vector3(movespeed * Input.GetAxis("Horizontal"), 0, movespeed * Input.GetAxis("Vertical")));
@@ -49,19 +44,7 @@ public class PlayerControl : MonoBehaviour
             Shooting(Vector3.right);
         if (Input.GetKeyDown(KeyCode.A))
             Shooting(Vector3.left);
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Kill")
-        {
-            Debug.Log("test");
-            died = true;
-            SceneManager.LoadScene("Unity 1");
-
-        }
 
     }
-
 
 }
