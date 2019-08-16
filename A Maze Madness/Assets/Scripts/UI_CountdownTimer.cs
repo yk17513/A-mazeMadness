@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 //codeline 4 required for using the UI
 
 public class UI_CountdownTimer : MonoBehaviour
@@ -33,10 +34,11 @@ public class UI_CountdownTimer : MonoBehaviour
         //when the timer is zero, which is at the start, when it is zero and is false at the start, then we are not counting down anymore. and then sets the timer to zero. these booleans control that we just do this once, even in an update function
         else if (timer <= 0.0f && !doOnce)
         {
+            SceneManager.LoadScene("LoadScene_Death");
             canCount = false;
             doOnce = true;
             uiText.text = "0.00";
             timer = 0.0f;
         }
     }
-}
+} 
