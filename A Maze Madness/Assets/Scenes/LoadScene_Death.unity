@@ -120,6 +120,80 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &695711893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 695711894}
+  - component: {fileID: 695711896}
+  - component: {fileID: 695711895}
+  m_Layer: 5
+  m_Name: You die text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &695711894
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695711893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 16.225111, y: 16.225111, z: 16.225111}
+  m_Children: []
+  m_Father: {fileID: 1536251096}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 27, y: 161}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &695711895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695711893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.90196085, g: 0.87843144, b: 0.86274517, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 5d7f7f92f81d5a0458ac69e61e69480c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &695711896
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695711893}
+  m_CullTransparentMesh: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +321,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320, y: 0}
+  m_AnchoredPosition: {x: 453, y: -46}
   m_SizeDelta: {x: 320, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &803214682
@@ -460,7 +534,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -32}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1224763361
@@ -857,17 +931,17 @@ PrefabInstance:
     - target: {fileID: 7256057203412960959, guid: bbe1bdbfa8b5f1d49a227b3794dcc7e7,
         type: 3}
       propertyPath: m_Name
-      value: Button_Start
+      value: Button_restart
       objectReference: {fileID: 0}
     - target: {fileID: 7256057203412960956, guid: bbe1bdbfa8b5f1d49a227b3794dcc7e7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -42
       objectReference: {fileID: 0}
     - target: {fileID: 7256057203412960956, guid: bbe1bdbfa8b5f1d49a227b3794dcc7e7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -320
+      value: -430
       objectReference: {fileID: 0}
     - target: {fileID: 7256057203412960956, guid: bbe1bdbfa8b5f1d49a227b3794dcc7e7,
         type: 3}
@@ -882,23 +956,23 @@ PrefabInstance:
     - target: {fileID: 7256057203412960956, guid: bbe1bdbfa8b5f1d49a227b3794dcc7e7,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.1888
       objectReference: {fileID: 0}
     - target: {fileID: 7256057203412960956, guid: bbe1bdbfa8b5f1d49a227b3794dcc7e7,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.1888
       objectReference: {fileID: 0}
     - target: {fileID: 7256057203412960956, guid: bbe1bdbfa8b5f1d49a227b3794dcc7e7,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.1888
       objectReference: {fileID: 0}
     - target: {fileID: 7256057203412960954, guid: bbe1bdbfa8b5f1d49a227b3794dcc7e7,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b78b4c410e2b07943bca2191a56080ad,
+      objectReference: {fileID: 21300000, guid: 600d8bec16f9ae149b911b30d8217792,
         type: 3}
     - target: {fileID: 7256057203412960954, guid: bbe1bdbfa8b5f1d49a227b3794dcc7e7,
         type: 3}
@@ -1100,7 +1174,7 @@ GameObject:
   - component: {fileID: 2012100091}
   - component: {fileID: 2012100090}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: You die image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1115,14 +1189,14 @@ RectTransform:
   m_GameObject: {fileID: 2012100088}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.1464, y: 4.1464, z: 4.1464}
+  m_LocalScale: {x: 5.896181, y: 5.896181, z: 5.896181}
   m_Children: []
   m_Father: {fileID: 1536251096}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 4, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2012100090
@@ -1145,7 +1219,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: abee8f5481071094c9e891bef7b77bbc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 157b0cccc533cad4495dc01aca71f910, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
