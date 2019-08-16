@@ -57,7 +57,7 @@ public class PlayerControl : MonoBehaviour
         {
             Debug.Log("test");
             died = true;
-            SceneManager.LoadScene("Unity 1");
+            SceneManager.LoadScene("LoadScene_Death");
 
         }
 
