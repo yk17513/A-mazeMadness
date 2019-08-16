@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 7512711113278126074}
   - component: {fileID: 7512711113278126022}
   - component: {fileID: 7512711113278126023}
+  - component: {fileID: -4382949604978595491}
   m_Layer: 8
   m_Name: hero
   m_TagString: Player
@@ -217,3 +218,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   B: {fileID: 2736391717957052837, guid: 85e06ca63f0a54a8ebaabf4787645e7e, type: 3}
   speed: 2
+--- !u!65 &-4382949604978595491
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7512711113278126075}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.8, y: 10.8, z: 0.20000005}
+  m_Center: {x: 0.0000009536743, y: 0.00000047683716, z: 0}
