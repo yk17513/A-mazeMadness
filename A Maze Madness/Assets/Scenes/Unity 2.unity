@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -132,26 +132,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 58808827}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -222,6 +202,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10.48848
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -237,6 +227,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 58808827}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &58808827 stripped
@@ -290,26 +290,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (34)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 206910754}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -380,6 +360,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.65
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -395,6 +385,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 206910754}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &206910754 stripped
@@ -415,26 +415,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (33)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 282847531}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -505,6 +485,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.625
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -520,6 +510,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 282847531}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &282847531 stripped
@@ -540,26 +540,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 328071275}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -630,6 +610,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -645,6 +635,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 328071275}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &328071275 stripped
@@ -665,26 +665,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 368017648}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -755,6 +735,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 23
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -770,6 +760,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 368017648}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &368017648 stripped
@@ -790,26 +790,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (27)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 427299147}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -880,6 +860,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -895,6 +885,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 427299147}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &427299147 stripped
@@ -915,26 +915,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (32)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 477491437}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1005,6 +985,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 13.65
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -1020,6 +1010,16 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 477491437}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &477491437 stripped
@@ -1134,26 +1134,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (31)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 548734625}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1224,6 +1204,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -1239,6 +1229,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 548734625}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &548734625 stripped
@@ -1259,26 +1259,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 561006495}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1349,6 +1329,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -1364,6 +1354,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 561006495}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &561006495 stripped
@@ -1384,26 +1384,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 670689888}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1474,6 +1454,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -1489,6 +1479,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 670689888}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &670689888 stripped
@@ -1509,26 +1509,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 691682643}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1599,6 +1579,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 63
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -1614,6 +1604,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 691682643}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &691682643 stripped
@@ -1725,26 +1725,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 711307839}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1815,6 +1795,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 17.406
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -1830,6 +1820,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 711307839}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &711307839 stripped
@@ -1850,26 +1850,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 842963469}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1940,6 +1920,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.65
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -1955,6 +1945,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 842963469}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &842963469 stripped
@@ -2049,26 +2049,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (18)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1103311995}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2139,6 +2119,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -2154,6 +2144,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1103311995}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1103311995 stripped
@@ -2174,26 +2174,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1177457066}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2264,6 +2244,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -2279,6 +2269,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1177457066}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1177457066 stripped
@@ -2299,26 +2299,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (30)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1261890336}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2389,6 +2369,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 62.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -2404,6 +2394,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1261890336}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1261890336 stripped
@@ -2603,26 +2603,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (19)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1325701232}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2693,6 +2673,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10.040626
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -2708,6 +2698,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1325701232}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1325701232 stripped
@@ -2728,26 +2728,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1328151890}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2818,6 +2798,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 23
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -2833,6 +2823,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1328151890}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1328151890 stripped
@@ -2853,26 +2853,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (35)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1362165613}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2943,6 +2923,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -2958,6 +2948,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1362165613}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1362165613 stripped
@@ -3057,26 +3057,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (28)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1433180657}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3147,6 +3127,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 35
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -3162,6 +3152,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1433180657}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1433180657 stripped
@@ -3182,26 +3182,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (23)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1521768109}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3272,6 +3252,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -3287,6 +3277,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1521768109}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1521768109 stripped
@@ -3307,26 +3307,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (17)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1550047417}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3397,6 +3377,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -3412,6 +3402,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1550047417}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1550047417 stripped
@@ -3432,26 +3432,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (24)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1587546209}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3522,6 +3502,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 24.6875
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -3542,6 +3532,16 @@ PrefabInstance:
       propertyPath: m_Size.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1587546209}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1587546209 stripped
@@ -3562,26 +3562,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1593617096}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3652,6 +3632,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -3667,6 +3657,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1593617096}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1593617096 stripped
@@ -3687,26 +3687,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1600280491}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3777,6 +3757,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 52
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -3792,6 +3782,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1600280491}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1600280491 stripped
@@ -3891,26 +3891,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1688504596}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3981,6 +3961,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -3996,6 +3986,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1688504596}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1688504596 stripped
@@ -4016,26 +4016,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (22)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1742808190}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4106,6 +4086,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -4121,6 +4111,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1742808190}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1742808190 stripped
@@ -4141,26 +4141,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1758283820}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4231,6 +4211,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -4246,6 +4236,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1758283820}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1758283820 stripped
@@ -4266,26 +4266,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (29)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1845384816}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4356,6 +4336,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.851249
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -4371,6 +4361,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1845384816}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1845384816 stripped
@@ -4391,26 +4391,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (15)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1854486254}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4481,6 +4461,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -4496,6 +4486,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1854486254}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1854486254 stripped
@@ -4511,6 +4511,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4382949604978595491, guid: 0c40deac7bf3549df9008163da27fea2,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4382949604978595491, guid: 0c40deac7bf3549df9008163da27fea2,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4382949604978595491, guid: 0c40deac7bf3549df9008163da27fea2,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4382949604978595491, guid: 0c40deac7bf3549df9008163da27fea2,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 10.8
+      objectReference: {fileID: 0}
     - target: {fileID: 7512711113278126075, guid: 0c40deac7bf3549df9008163da27fea2,
         type: 3}
       propertyPath: m_Name
@@ -4601,11 +4621,6 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7512711113278126023, guid: 0c40deac7bf3549df9008163da27fea2,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7512711113260049003, guid: 0c40deac7bf3549df9008163da27fea2,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -4661,25 +4676,10 @@ PrefabInstance:
       propertyPath: field of view
       value: 56.2
       objectReference: {fileID: 0}
-    - target: {fileID: -4382949604978595491, guid: 0c40deac7bf3549df9008163da27fea2,
+    - target: {fileID: 7512711113278126023, guid: 0c40deac7bf3549df9008163da27fea2,
         type: 3}
-      propertyPath: m_Center.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4382949604978595491, guid: 0c40deac7bf3549df9008163da27fea2,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4382949604978595491, guid: 0c40deac7bf3549df9008163da27fea2,
-        type: 3}
-      propertyPath: m_IsTrigger
+      propertyPath: m_Enabled
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4382949604978595491, guid: 0c40deac7bf3549df9008163da27fea2,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 10.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c40deac7bf3549df9008163da27fea2, type: 3}
@@ -4695,26 +4695,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1922283549}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4785,6 +4765,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -4800,6 +4790,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1922283549}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1922283549 stripped
@@ -4820,26 +4820,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1924490906}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4910,6 +4890,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -4925,6 +4915,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1924490906}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1924490906 stripped
@@ -4945,26 +4945,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (26)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 1984215389}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5035,6 +5015,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 21
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -5050,6 +5040,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 1984215389}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &1984215389 stripped
@@ -5070,26 +5070,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall (20)
       objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: mesh
-      value: 
-      objectReference: {fileID: 2118634783}
-    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
-        type: 3}
-      propertyPath: Red_mat
-      value: 
-      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     - target: {fileID: 4240150870646496887, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5160,6 +5140,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437765687542009538, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5207220841369304081, guid: c837f24bafdd34b72a0ba949fc9c77db,
         type: 3}
       propertyPath: m_IsTrigger
@@ -5175,6 +5165,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: mesh
+      value: 
+      objectReference: {fileID: 2118634783}
+    - target: {fileID: 3856952901584025624, guid: c837f24bafdd34b72a0ba949fc9c77db,
+        type: 3}
+      propertyPath: Red_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 115c233b86da04589b77ab6ccd48590c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c837f24bafdd34b72a0ba949fc9c77db, type: 3}
 --- !u!23 &2118634783 stripped
